@@ -22,6 +22,20 @@ predicts value of output based on input it's output is 0 or 1 (YES OR NO).
 
  **b0 and b1 are intercept values**
 
+## PARAMETERS
+
+<img src="https://github.com/manish0kuniyal/NeuralNetworks/assets/110035752/3b9caa2c-67e7-4f1e-b373-a4be6779776f" width="600"/>
+
+ ## ACTIVATION FUNCTION 
+***The activation function determines whether the neuron should be "activated" (fire) or not, based on the input it receives.***
+
+<img src="https://github.com/manish0kuniyal/NeuralNetworks/assets/110035752/faee99f8-f3a6-4515-ba9d-25b6e8cfaefb" width="600"/>
 
 
- 
+| Activation Function | Description | Use Cases |
+| --- | --- | --- |
+| Sigmoid | Squashes input values between 0 and 1 | - Estimating probabilities <br> - Outputting values between 0 and 1 |
+| Tanh | Squashes input values between -1 and 1 | - Introducing non-linearities <br> - Normalizing data between -1 and 1 |
+| ReLU | Keeps positive values as they are, turns negatives to 0 | - Hidden layers in deep neural networks <br> - Faster learning and efficient training |
+| Leaky ReLU | Similar to ReLU, but allows a small negative slope | - Preventing dead neurons <br> - Improved training with negative inputs |
+| Softmax | Converts values into a probability distribution | - Multi-class classification <br> - Identifying the most probable class |
